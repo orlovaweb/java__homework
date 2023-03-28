@@ -19,17 +19,10 @@ public class ex3 {
         break;
       case "-":
         System.out.printf("= %d", a - b);
-
-        break;
-      case "=":
-        System.out.printf("Результат: %s", a == b ? "равны" : "не равны");
-
         break;
       case "*":
-        System.out.printf("Результат: %d", a * b);
-
+        System.out.printf("= %d", a * b);
         break;
-
       default:
         System.out.println("Чего-то вы не то ввели!");
         break;
